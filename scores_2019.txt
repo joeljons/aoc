@@ -1,8 +1,8 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 4*
-   0x0000|2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+      /*2019*/[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-TwilioQuest - Play Advent of Code and earn rad loot in TwilioQuest, a developer RPG for Mac, Windows, and Linux. Learn JavaScript, Python, git, APIs for SMS, VoIP, or WhatsApp, and much more.
-Per Day: 1 2
+SmartyStreets - Ridiculously -- Fast -------- Address ------ Verification --
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 1:
 
@@ -43,7 +43,7 @@ First hundred users to get both stars on Day 1:
  35) Dec 01  00:02:58  Benedikt Werner
  36) Dec 01  00:03:03  Matthew Reeder
  37) Dec 01  00:03:04  Jeremiah Simmons (AoC++)
- 38) Dec 01  00:03:04  gengkev
+ 38) Dec 01  00:03:04  gengkev (AoC++)
  39) Dec 01  00:03:09  Branimir Filipović
  40) Dec 01  00:03:12  Starwort
  41) Dec 01  00:03:13  (anonymous user #390615)
@@ -63,9 +63,9 @@ First hundred users to get both stars on Day 1:
  55) Dec 01  00:03:35  Sarah Shader
  56) Dec 01  00:03:36  Alexander Udalov
  57) Dec 01  00:03:37  HiggstonRainbird
- 58) Dec 01  00:03:37  Branflakes, the Nonanonymous
+ 58) Dec 01  00:03:37  Branflakes2415
  59) Dec 01  00:03:38  lukechampine
- 60) Dec 01  00:03:38  Shicheng Rao
+ 60) Dec 01  00:03:38  abnew123
  61) Dec 01  00:03:40  Jinpyo Kim
  62) Dec 01  00:03:41  bluepichu
  63) Dec 01  00:03:41  pkktino
@@ -96,9 +96,9 @@ First hundred users to get both stars on Day 1:
  88) Dec 01  00:04:00  sdamashek
  89) Dec 01  00:04:01  orez-
  90) Dec 01  00:04:01  vash3r
- 91) Dec 01  00:04:03  nomatteus
+ 91) Dec 01  00:04:03  nomatteus (AoC++)
  92) Dec 01  00:04:03  Nick Frost (AoC++)
- 93) Dec 01  00:04:04  (anonymous user #365713)
+ 93) Dec 01  00:04:04  (anonymous user #365713) (AoC++)
  94) Dec 01  00:04:06  A5rocks
  95) Dec 01  00:04:09  Michael Tardibuono (AoC++)
  96) Dec 01  00:04:09  Christofer Ohlsson (AoC++)
@@ -116,7 +116,7 @@ First hundred users to get the first star on Day 1:
   6) Dec 01  00:00:43  jtbandes (AoC++)
   7) Dec 01  00:00:44  (anonymous user #638222)
   8) Dec 01  00:00:44  awesomelemonade
-  9) Dec 01  00:00:44  gengkev
+  9) Dec 01  00:00:44  gengkev (AoC++)
  10) Dec 01  00:00:46  Gabriel Kanegae
  11) Dec 01  00:00:46  LukasGelbmann
  12) Dec 01  00:00:47  petertseng
@@ -155,7 +155,7 @@ First hundred users to get the first star on Day 1:
  45) Dec 01  00:01:07  Aesthetikx
  46) Dec 01  00:01:07  Tyler Zhang
  47) Dec 01  00:01:07  Just Luke
- 48) Dec 01  00:01:07  Shicheng Rao
+ 48) Dec 01  00:01:07  abnew123
  49) Dec 01  00:01:08  John Rizzo (AoC++)
  50) Dec 01  00:01:08  Eric Tzeng
  51) Dec 01  00:01:09  ashish mahto
@@ -179,7 +179,7 @@ First hundred users to get the first star on Day 1:
  69) Dec 01  00:01:16  andreasgruenh
  70) Dec 01  00:01:16  Vipul
  71) Dec 01  00:01:17  Benedikt Werner
- 72) Dec 01  00:01:17  cyphase
+ 72) Dec 01  00:01:17  cyphase (AoC++)
  73) Dec 01  00:01:17  Maerig
  74) Dec 01  00:01:17  Peter Toth (AoC++)
  75) Dec 01  00:01:17  usbpc
@@ -205,16 +205,16 @@ First hundred users to get the first star on Day 1:
  95) Dec 01  00:01:24  Elmer Le
  96) Dec 01  00:01:24  cj81499
  97) Dec 01  00:01:24  Matija Herceg (AoC++)
- 98) Dec 01  00:01:24  Ethan Morgan
- 99) Dec 01  00:01:24  nomatteus
-100) Dec 01  00:01:24  Oleg Godovykh
+ 98) Dec 01  00:01:24  Ethan Morgan (AoC++)
+ 99) Dec 01  00:01:24  nomatteus (AoC++)
+100) Dec 01  00:01:24  Oleg Godovykh (AoC++)
 
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 4*
-  0.0.0.0:2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+   <y>2019</y>[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-Educative.io - Gain in-demand tech skills, at the speed you want. Text-based courses with live coding environments help you learn without the fluff.
-Per Day: 1 2
+Sourcegraph - Build the new standard developer platform on a globally-distributed remote-first team. We value ownership, autonomy, communication, and transparency.
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 2:
 
@@ -228,7 +228,7 @@ First hundred users to get both stars on Day 2:
   8) Dec 02  00:06:20  (anonymous user #402645)
   9) Dec 02  00:06:34  huzecong (AoC++)
  10) Dec 02  00:06:36  Holden Watson
- 11) Dec 02  00:06:36  glguy (Sponsor)
+ 11) Dec 02  00:06:36  glguy (AoC++) (Sponsor)
  12) Dec 02  00:06:41  Zeyu Chen
  13) Dec 02  00:06:41  Benedikt Werner
  14) Dec 02  00:06:43  Sophie Alpert (AoC++)
@@ -236,7 +236,7 @@ First hundred users to get both stars on Day 2:
  16) Dec 02  00:06:45  Paul Martinez
  17) Dec 02  00:06:54  Alex O'Neill
  18) Dec 02  00:07:01  Michael Fogleman (Sponsor)
- 19) Dec 02  00:07:11  Carter Sande
+ 19) Dec 02  00:07:11  (anonymous user #676217)
  20) Dec 02  00:07:20  awychong
  21) Dec 02  00:07:24  pbfy0
  22) Dec 02  00:07:35  petertseng
@@ -254,22 +254,22 @@ First hundred users to get both stars on Day 2:
  34) Dec 02  00:08:37  Snild Dolkow
  35) Dec 02  00:08:37  Alexander Udalov
  36) Dec 02  00:08:38  jebouin
- 37) Dec 02  00:08:38  Ben Buchwald
+ 37) Dec 02  00:08:38  Ben Buchwald (AoC++)
  38) Dec 02  00:08:39  alexanderhaupt
  39) Dec 02  00:08:41  ttalvitie
- 40) Dec 02  00:08:46  cyphase
- 41) Dec 02  00:08:51  mattr555
+ 40) Dec 02  00:08:46  cyphase (AoC++)
+ 41) Dec 02  00:08:51  Matthew Ramina
  42) Dec 02  00:08:51  Adam Gausmann
  43) Dec 02  00:08:51  HumanEquivalentUnit
- 44) Dec 02  00:08:53  Elliot Nelson
+ 44) Dec 02  00:08:53  Elliot Nelson (AoC++)
  45) Dec 02  00:08:54  vash3r
- 46) Dec 02  00:08:55  Thomas Steinke
+ 46) Dec 02  00:08:55  Thomas Steinke (AoC++)
  47) Dec 02  00:08:55  hotdoglover86
  48) Dec 02  00:08:56  Joel Jonsson (AoC++)
  49) Dec 02  00:09:01  Andreas Hansson
  50) Dec 02  00:09:06  lukechampine
  51) Dec 02  00:09:09  val tron
- 52) Dec 02  00:09:10  Ethan Morgan
+ 52) Dec 02  00:09:10  Ethan Morgan (AoC++)
  53) Dec 02  00:09:11  Kate Miháliková (AoC++)
  54) Dec 02  00:09:13  malisper
  55) Dec 02  00:09:15  (anonymous user #18180)
@@ -343,15 +343,15 @@ First hundred users to get the first star on Day 2:
  21) Dec 02  00:04:15  huzecong (AoC++)
  22) Dec 02  00:04:24  Zeyu Chen
  23) Dec 02  00:04:25  Benedikt Werner
- 24) Dec 02  00:04:26  glguy (Sponsor)
+ 24) Dec 02  00:04:26  glguy (AoC++) (Sponsor)
  25) Dec 02  00:04:27  rf-
  26) Dec 02  00:04:30  jtbandes (AoC++)
  27) Dec 02  00:04:30  Holden Watson
  28) Dec 02  00:04:32  AlphaKretin
  29) Dec 02  00:04:44  petertseng
- 30) Dec 02  00:04:50  Ben Buchwald
+ 30) Dec 02  00:04:50  Ben Buchwald (AoC++)
  31) Dec 02  00:04:50  vash3r
- 32) Dec 02  00:04:57  Carter Sande
+ 32) Dec 02  00:04:57  (anonymous user #676217)
  33) Dec 02  00:04:57  sswingle
  34) Dec 02  00:05:01  Snild Dolkow
  35) Dec 02  00:05:04  Nick
@@ -378,7 +378,7 @@ First hundred users to get the first star on Day 2:
  56) Dec 02  00:05:29  lthistle
  57) Dec 02  00:05:31  MissingNoShiny
  58) Dec 02  00:05:32  Ben Mirtchouk
- 59) Dec 02  00:05:36  gengkev
+ 59) Dec 02  00:05:36  gengkev (AoC++)
  60) Dec 02  00:05:37  PeiAllen
  61) Dec 02  00:05:38  kejadlen (AoC++)
  62) Dec 02  00:05:42  Graham White
@@ -386,7 +386,7 @@ First hundred users to get the first star on Day 2:
  64) Dec 02  00:05:46  icicl
  65) Dec 02  00:05:47  awesomelemonade
  66) Dec 02  00:05:47  George Mocanu (AoC++)
- 67) Dec 02  00:05:47  cyphase
+ 67) Dec 02  00:05:47  cyphase (AoC++)
  68) Dec 02  00:05:48  romellem
  69) Dec 02  00:05:50  ttalvitie
  70) Dec 02  00:05:50  Ry
@@ -395,7 +395,7 @@ First hundred users to get the first star on Day 2:
  73) Dec 02  00:05:57  lucy
  74) Dec 02  00:05:57  Joel Jonsson (AoC++)
  75) Dec 02  00:05:57  Jacob Magnuson (AoC++)
- 76) Dec 02  00:05:59  Thomas Steinke
+ 76) Dec 02  00:05:59  Thomas Steinke (AoC++)
  77) Dec 02  00:05:59  Colton Pauderis (AoC++)
  78) Dec 02  00:06:01  Andreas Hansson
  79) Dec 02  00:06:02  Ikusaba-san
@@ -405,15 +405,15 @@ First hundred users to get the first star on Day 2:
  83) Dec 02  00:06:06  Daniel Rejment
  84) Dec 02  00:06:08  alexanderhaupt
  85) Dec 02  00:06:09  (anonymous user #230381)
- 86) Dec 02  00:06:10  Elliot Nelson
+ 86) Dec 02  00:06:10  Elliot Nelson (AoC++)
  87) Dec 02  00:06:10  glipR
  88) Dec 02  00:06:11  jessetham
  89) Dec 02  00:06:15  Justin Kao
  90) Dec 02  00:06:15  Jarik Rens
  91) Dec 02  00:06:18  coolcomputery
  92) Dec 02  00:06:18  AKQuaternion (AoC++)
- 93) Dec 02  00:06:18  Ethan Morgan
- 94) Dec 02  00:06:19  mattr555
+ 93) Dec 02  00:06:18  Ethan Morgan (AoC++)
+ 94) Dec 02  00:06:19  Matthew Ramina
  95) Dec 02  00:06:20  val tron
  96) Dec 02  00:06:20  cmdd
  97) Dec 02  00:06:23  David Choo
@@ -421,11 +421,12 @@ First hundred users to get the first star on Day 2:
  99) Dec 02  00:06:23  Yusuf Elsharawy
 100) Dec 02  00:06:26  Joseph Gaasbeck
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 6*
+
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
   0.0.0.0:2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-Sourcegraph - Build the new standard developer platform on a globally-distributed remote-first team. We value ownership, autonomy, communication, and transparency.
-Per Day: 1 2 3
+Catawiki - Online auctions for special objects. Win prizes on our private leaderboard! And obviously, we're hiring! bit.ly/join-cw
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 3:
 
@@ -443,16 +444,16 @@ First hundred users to get both stars on Day 3:
  12) Dec 03  00:08:28  jhawthorn (AoC++)
  13) Dec 03  00:08:39  Lance Nathan
  14) Dec 03  00:08:40  Benedikt Werner
- 15) Dec 03  00:08:51  gengkev
+ 15) Dec 03  00:08:51  gengkev (AoC++)
  16) Dec 03  00:08:57  sdamashek
- 17) Dec 03  00:08:58  drougge
+ 17) Dec 03  00:08:58  drougge (AoC++)
  18) Dec 03  00:09:06  Sahil Kochar
  19) Dec 03  00:09:17  Ben Mirtchouk
  20) Dec 03  00:09:21  ethankward
- 21) Dec 03  00:09:23  Jouni K. Seppänen
+ 21) Dec 03  00:09:23  Jouni K. Seppänen (Sponsor)
  22) Dec 03  00:09:31  Kevin Sun
  23) Dec 03  00:09:33  Green Lightning (AoC++)
- 24) Dec 03  00:09:35  Keegan Carruthers-Smith (Sponsor)
+ 24) Dec 03  00:09:35  Keegan Carruthers-Smith (AoC++) (Sponsor)
  25) Dec 03  00:09:41  Asger Hautop Drewsen (AoC++)
  26) Dec 03  00:09:45  (anonymous user #44119)
  27) Dec 03  00:09:47  ZED.Charley William Thairo
@@ -465,11 +466,11 @@ First hundred users to get both stars on Day 3:
  34) Dec 03  00:10:35  grekiki
  35) Dec 03  00:10:38  Alex Stephens
  36) Dec 03  00:10:42  val tron
- 37) Dec 03  00:10:47  GeneralYouri
+ 37) Dec 03  00:10:47  GeneralYouri (AoC++)
  38) Dec 03  00:10:51  icicl
  39) Dec 03  00:10:54  msc-27
  40) Dec 03  00:10:57  Alexander Udalov
- 41) Dec 03  00:11:00  bcc32
+ 41) Dec 03  00:11:00  bcc32 (AoC++)
  42) Dec 03  00:11:12  zielmicha
  43) Dec 03  00:11:15  Dan Roche
  44) Dec 03  00:11:16  (anonymous user #199929)
@@ -483,12 +484,12 @@ First hundred users to get both stars on Day 3:
  52) Dec 03  00:11:41  Boo Hoo
  53) Dec 03  00:11:43  Alex O'Neill
  54) Dec 03  00:11:43  Andreas Hansson
- 55) Dec 03  00:11:49  Dave Buchfuhrer
+ 55) Dec 03  00:11:49  Dave Buchfuhrer (AoC++)
  56) Dec 03  00:11:52  SwipedRight
  57) Dec 03  00:11:52  awychong
  58) Dec 03  00:11:53  Rafał Burczyński
- 59) Dec 03  00:11:54  mattr555
- 60) Dec 03  00:11:54  Thomas Steinke
+ 59) Dec 03  00:11:54  Matthew Ramina
+ 60) Dec 03  00:11:54  Thomas Steinke (AoC++)
  61) Dec 03  00:11:57  RJ Walsh
  62) Dec 03  00:11:58  Kate Miháliková (AoC++)
  63) Dec 03  00:12:00  Jerry Chen
@@ -509,7 +510,7 @@ First hundred users to get both stars on Day 3:
  78) Dec 03  00:12:48  mikecheb
  79) Dec 03  00:12:57  Matt Gruskin
  80) Dec 03  00:13:01  Colton Pauderis (AoC++)
- 81) Dec 03  00:13:08  Toni Fadjukoff
+ 81) Dec 03  00:13:08  Toni Fadjukoff (AoC++)
  82) Dec 03  00:13:09  tckmn
  83) Dec 03  00:13:10  m-schm
  84) Dec 03  00:13:11  Springo
@@ -524,7 +525,7 @@ First hundred users to get both stars on Day 3:
  93) Dec 03  00:13:25  degemer
  94) Dec 03  00:13:27  Benjamin Congdon
  95) Dec 03  00:13:28  sguest (AoC++)
- 96) Dec 03  00:13:35  Carter Sande
+ 96) Dec 03  00:13:35  (anonymous user #676217)
  97) Dec 03  00:13:38  asishm
  98) Dec 03  00:13:38  Zeyu Chen
  99) Dec 03  00:13:40  David Garber
@@ -538,7 +539,7 @@ First hundred users to get the first star on Day 3:
   5) Dec 03  00:05:14  bluepichu
   6) Dec 03  00:05:17  Igor Naverniouk (AoC++)
   7) Dec 03  00:05:21  David Wahler (AoC++)
-  8) Dec 03  00:05:29  Jouni K. Seppänen
+  8) Dec 03  00:05:29  Jouni K. Seppänen (Sponsor)
   9) Dec 03  00:05:31  Sahil Kochar
  10) Dec 03  00:05:46  ethankward
  11) Dec 03  00:05:47  Lance Nathan
@@ -555,22 +556,22 @@ First hundred users to get the first star on Day 3:
  22) Dec 03  00:06:21  Waffle 3z
  23) Dec 03  00:06:23  coolcomputery
  24) Dec 03  00:06:27  sdamashek
- 25) Dec 03  00:06:28  gengkev
+ 25) Dec 03  00:06:28  gengkev (AoC++)
  26) Dec 03  00:06:29  Thomas Holmes
  27) Dec 03  00:06:32  msc-27
  28) Dec 03  00:06:37  jhawthorn (AoC++)
  29) Dec 03  00:06:39  Christofer Ohlsson (AoC++)
  30) Dec 03  00:06:45  (anonymous user #44119)
  31) Dec 03  00:06:45  GlenboLake
- 32) Dec 03  00:06:51  drougge
+ 32) Dec 03  00:06:51  drougge (AoC++)
  33) Dec 03  00:06:56  ethframe
  34) Dec 03  00:06:57  Sam Cappleman-Lynes
  35) Dec 03  00:06:58  Nick Frost (AoC++)
  36) Dec 03  00:07:00  Jerry Chen
  37) Dec 03  00:07:08  RodericDay
- 38) Dec 03  00:07:09  bcc32
+ 38) Dec 03  00:07:09  bcc32 (AoC++)
  39) Dec 03  00:07:10  David
- 40) Dec 03  00:07:16  Keegan Carruthers-Smith (Sponsor)
+ 40) Dec 03  00:07:16  Keegan Carruthers-Smith (AoC++) (Sponsor)
  41) Dec 03  00:07:18  Kevin Sun
  42) Dec 03  00:07:25  Alex O'Neill
  43) Dec 03  00:07:33  Asger Hautop Drewsen (AoC++)
@@ -578,7 +579,7 @@ First hundred users to get the first star on Day 3:
  45) Dec 03  00:07:36  (anonymous user #685733)
  46) Dec 03  00:07:38  Matija Herceg (AoC++)
  47) Dec 03  00:07:42  icicl
- 48) Dec 03  00:07:44  mattr555
+ 48) Dec 03  00:07:44  Matthew Ramina
  49) Dec 03  00:07:46  Matt Gruskin
  50) Dec 03  00:07:46  Starwort
  51) Dec 03  00:07:49  alexanderhaupt
@@ -596,7 +597,7 @@ First hundred users to get the first star on Day 3:
  63) Dec 03  00:08:10  Tanner Hoke
  64) Dec 03  00:08:14  Jeffrey Limbacher
  65) Dec 03  00:08:15  Boo Hoo
- 66) Dec 03  00:08:16  GeneralYouri
+ 66) Dec 03  00:08:16  GeneralYouri (AoC++)
  67) Dec 03  00:08:17  Alexerson
  68) Dec 03  00:08:17  Colton Pauderis (AoC++)
  69) Dec 03  00:08:18  (anonymous user #199929)
@@ -606,13 +607,13 @@ First hundred users to get the first star on Day 3:
  73) Dec 03  00:08:24  ExpHP
  74) Dec 03  00:08:30  zhiayang
  75) Dec 03  00:08:43  pkktino
- 76) Dec 03  00:08:43  Dave Buchfuhrer
+ 76) Dec 03  00:08:43  Dave Buchfuhrer (AoC++)
  77) Dec 03  00:08:46  Snild Dolkow
  78) Dec 03  00:08:50  Kevin Yap (AoC++)
  79) Dec 03  00:08:54  rf-
  80) Dec 03  00:08:56  Kate Miháliková (AoC++)
- 81) Dec 03  00:08:57  Chris Glencross
- 82) Dec 03  00:08:58  Brian Bucklew
+ 81) Dec 03  00:08:57  Chris Glencross (AoC++)
+ 82) Dec 03  00:08:58  Brian Bucklew (AoC++)
  83) Dec 03  00:09:03  mich101mich (AoC++)
  84) Dec 03  00:09:06  vkolobara
  85) Dec 03  00:09:07  matystroia
@@ -627,17 +628,17 @@ First hundred users to get the first star on Day 3:
  94) Dec 03  00:09:22  Benjamin Congdon
  95) Dec 03  00:09:23  Tunaki
  96) Dec 03  00:09:23  attilusleung
- 97) Dec 03  00:09:24  Oleg Godovykh
+ 97) Dec 03  00:09:24  Oleg Godovykh (AoC++)
  98) Dec 03  00:09:30  gogoprog
  99) Dec 03  00:09:32  Henrico Pops (AoC++)
 100) Dec 03  00:09:38  Sedsarq
 
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 8*
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
   {year=>2019}[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-Galois - Employee-owned, self-directed, radically transparent. Tackle challenging computer science problems in a unique and nurturing community.
-Per Day: 1 2 3 4
+Codethink Ltd. - Codethink is a software services company, expert in the use of Open Source technologies for systems software engineering.
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 4:
 
@@ -659,7 +660,7 @@ First hundred users to get both stars on Day 4:
  16) Dec 04  00:03:57  Asger Hautop Drewsen (AoC++)
  17) Dec 04  00:03:57  orez-
  18) Dec 04  00:04:00  vash3r
- 19) Dec 04  00:04:00  Thomas Steinke
+ 19) Dec 04  00:04:00  Thomas Steinke (AoC++)
  20) Dec 04  00:04:01  Ikusaba-san
  21) Dec 04  00:04:06  grekiki
  22) Dec 04  00:04:10  Unihedron (AoC++)
@@ -681,7 +682,7 @@ First hundred users to get both stars on Day 4:
  38) Dec 04  00:04:36  nthistle
  39) Dec 04  00:04:37  (anonymous user #638222)
  40) Dec 04  00:04:38  mserrano
- 41) Dec 04  00:04:40  Carter Sande
+ 41) Dec 04  00:04:40  (anonymous user #676217)
  42) Dec 04  00:04:44  Tom Scallon
  43) Dec 04  00:04:45  Lewin Gan
  44) Dec 04  00:04:48  Pedro Ferreira
@@ -692,7 +693,7 @@ First hundred users to get both stars on Day 4:
  49) Dec 04  00:05:04  Robert Xiao
  50) Dec 04  00:05:06  ethankward
  51) Dec 04  00:05:10  Michael Goldwasser
- 52) Dec 04  00:05:13  Elliot Nelson
+ 52) Dec 04  00:05:13  Elliot Nelson (AoC++)
  53) Dec 04  00:05:14  zirkonit
  54) Dec 04  00:05:14  zielmicha
  55) Dec 04  00:05:15  (anonymous user #130597)
@@ -703,7 +704,7 @@ First hundred users to get both stars on Day 4:
  60) Dec 04  00:05:30  Joshua Wise (AoC++)
  61) Dec 04  00:05:31  leijurv
  62) Dec 04  00:05:34  Timothy Aveni
- 63) Dec 04  00:05:35  Ethan Morgan
+ 63) Dec 04  00:05:35  Ethan Morgan (AoC++)
  64) Dec 04  00:05:36  Frederik Andersen
  65) Dec 04  00:05:38  gltronred
  66) Dec 04  00:05:39  Springo
@@ -713,15 +714,15 @@ First hundred users to get both stars on Day 4:
  70) Dec 04  00:05:46  Sarah Shader
  71) Dec 04  00:05:52  Gaelan
  72) Dec 04  00:05:52  Frode Johannesen (AoC++)
- 73) Dec 04  00:05:55  (anonymous user #724414)
+ 73) Dec 04  00:05:55  Gab0
  74) Dec 04  00:05:55  Max Jäger (AoC++)
  75) Dec 04  00:05:55  Kye W. Shi
- 76) Dec 04  00:05:56  Dave Buchfuhrer
+ 76) Dec 04  00:05:56  Dave Buchfuhrer (AoC++)
  77) Dec 04  00:05:57  John Cornwell
  78) Dec 04  00:05:58  Nathaniel Flath
  79) Dec 04  00:05:58  Jace Brewster
  80) Dec 04  00:05:59  Cameron Aavik (AoC++)
- 81) Dec 04  00:06:03  rokicki
+ 81) Dec 04  00:06:03  Tomas Rokicki
  82) Dec 04  00:06:04  drougge (AoC++)
  83) Dec 04  00:06:08  Chris Lambert
  84) Dec 04  00:06:08  Graham Place
@@ -739,7 +740,7 @@ First hundred users to get both stars on Day 4:
  96) Dec 04  00:06:22  kajott
  97) Dec 04  00:06:23  Ben Buchwald (AoC++)
  98) Dec 04  00:06:24  ben blum
- 99) Dec 04  00:06:24  Chris Mohr
+ 99) Dec 04  00:06:24  Chris Mohr (AoC++)
 100) Dec 04  00:06:25  Jinpyo Kim
 First hundred users to get the first star on Day 4:
 
@@ -788,15 +789,15 @@ First hundred users to get the first star on Day 4:
  43) Dec 04  00:02:22  Alex Cornellier
  44) Dec 04  00:02:22  Craig Gidney
  45) Dec 04  00:02:25  Matt Gruskin
- 46) Dec 04  00:02:27  rokicki
+ 46) Dec 04  00:02:27  Tomas Rokicki
  47) Dec 04  00:02:28  Søren Fuglede Jørgensen
  48) Dec 04  00:02:29  Pedro Ferreira
  49) Dec 04  00:02:29  alexanderhaupt
  50) Dec 04  00:02:30  ka-splam
  51) Dec 04  00:02:31  scaredginger
  52) Dec 04  00:02:32  Lewin Gan
- 53) Dec 04  00:02:34  Ethan Morgan
- 54) Dec 04  00:02:34  Thomas Steinke
+ 53) Dec 04  00:02:34  Ethan Morgan (AoC++)
+ 54) Dec 04  00:02:34  Thomas Steinke (AoC++)
  55) Dec 04  00:02:35  rpeng
  56) Dec 04  00:02:35  orez-
  57) Dec 04  00:02:37  Nathan Fenner
@@ -809,16 +810,16 @@ First hundred users to get the first star on Day 4:
  64) Dec 04  00:02:41  pbfy0
  65) Dec 04  00:02:46  jamie
  66) Dec 04  00:02:47  leaen
- 67) Dec 04  00:02:48  bcc32
+ 67) Dec 04  00:02:48  bcc32 (AoC++)
  68) Dec 04  00:02:48  Chris Lambert
  69) Dec 04  00:02:49  ben blum
  70) Dec 04  00:02:49  sdamashek
- 71) Dec 04  00:02:50  starfys
+ 71) Dec 04  00:02:50  starfys (AoC++)
  72) Dec 04  00:02:50  @ajaska
  73) Dec 04  00:02:53  Tanner Hoke
  74) Dec 04  00:02:53  ethframe
  75) Dec 04  00:02:53  Phyles (AoC++)
- 76) Dec 04  00:02:54  mattr555
+ 76) Dec 04  00:02:54  Matthew Ramina
  77) Dec 04  00:02:54  crazymerlyn
  78) Dec 04  00:02:54  Max Jäger (AoC++)
  79) Dec 04  00:02:55  dan144
@@ -844,11 +845,12 @@ First hundred users to get the first star on Day 4:
  99) Dec 04  00:03:05  Benjamin Herr
 100) Dec 04  00:03:05  (anonymous user #646668)
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 10*
-   0x0000|2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+  0.0.0.0:2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-tretton37 - Means 1337 in Swedish. What you see is who we are!
-Per Day: 1 2 3 4 5
+TwilioQuest - Play Advent of Code and earn rad loot in TwilioQuest, a developer RPG for Mac, Windows, and Linux. Learn JavaScript, Python, git, APIs for SMS, VoIP, or WhatsApp, and much more.
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 5:
 
@@ -862,18 +864,18 @@ First hundred users to get both stars on Day 5:
   8) Dec 05  00:12:09  12Me21
   9) Dec 05  00:12:25  Benedikt Werner
  10) Dec 05  00:13:12  Thomas Holmes
- 11) Dec 05  00:13:18  Elliot Nelson
+ 11) Dec 05  00:13:18  Elliot Nelson (AoC++)
  12) Dec 05  00:13:30  bluepichu
  13) Dec 05  00:13:38  Ben Buchwald (AoC++)
  14) Dec 05  00:14:05  Jonathan Paulson
  15) Dec 05  00:14:12  rf-
  16) Dec 05  00:14:18  angus-g
- 17) Dec 05  00:14:28  bcc32
+ 17) Dec 05  00:14:28  bcc32 (AoC++)
  18) Dec 05  00:14:44  Green Lightning (AoC++)
  19) Dec 05  00:14:45  sdamashek
  20) Dec 05  00:14:46  pbfy0
  21) Dec 05  00:15:28  cjquines
- 22) Dec 05  00:15:30  msullivan
+ 22) Dec 05  00:15:30  msullivan (AoC++)
  23) Dec 05  00:15:34  mich101mich (AoC++)
  24) Dec 05  00:15:48  Joel Jonsson (AoC++)
  25) Dec 05  00:15:54  Max Jäger (AoC++)
@@ -938,13 +940,13 @@ First hundred users to get both stars on Day 5:
  84) Dec 05  00:21:32  crvv
  85) Dec 05  00:21:35  tbodt
  86) Dec 05  00:21:38  Ed j
- 87) Dec 05  00:21:50  rokicki
+ 87) Dec 05  00:21:50  Tomas Rokicki
  88) Dec 05  00:21:54  Thomas Feld
  89) Dec 05  00:22:00  sonneveld
  90) Dec 05  00:22:01  Han Mertens
  91) Dec 05  00:22:06  Theron Tock
  92) Dec 05  00:22:06  epiphone
- 93) Dec 05  00:22:08  Anish
+ 93) Dec 05  00:22:08  Anish (AoC++)
  94) Dec 05  00:22:15  Daniel Rejment
  95) Dec 05  00:22:19  alexanderhaupt
  96) Dec 05  00:22:19  Nathan Fenner
@@ -967,7 +969,7 @@ First hundred users to get the first star on Day 5:
  11) Dec 05  00:08:53  angus-g
  12) Dec 05  00:09:08  jtbandes (AoC++)
  13) Dec 05  00:09:29  Jouni K. Seppänen (Sponsor)
- 14) Dec 05  00:09:35  Elliot Nelson
+ 14) Dec 05  00:09:35  Elliot Nelson (AoC++)
  15) Dec 05  00:09:38  Daniel Rejment
  16) Dec 05  00:09:38  Erik Szalay
  17) Dec 05  00:09:41  12Me21
@@ -989,7 +991,7 @@ First hundred users to get the first star on Day 5:
  33) Dec 05  00:11:08  Kevin Sun
  34) Dec 05  00:11:10  (anonymous user #638222)
  35) Dec 05  00:11:18  Snild Dolkow
- 36) Dec 05  00:11:19  bcc32
+ 36) Dec 05  00:11:19  bcc32 (AoC++)
  37) Dec 05  00:11:21  Green Lightning (AoC++)
  38) Dec 05  00:11:23  StijnSlot
  39) Dec 05  00:11:24  Colin Stewart
@@ -1004,7 +1006,7 @@ First hundred users to get the first star on Day 5:
  48) Dec 05  00:11:51  Jacob Magnuson (AoC++)
  49) Dec 05  00:12:00  Nathan Shirley (Sponsor)
  50) Dec 05  00:12:09  D. Salgado
- 51) Dec 05  00:12:09  msullivan
+ 51) Dec 05  00:12:09  msullivan (AoC++)
  52) Dec 05  00:12:11  orez-
  53) Dec 05  00:12:12  GlenboLake
  54) Dec 05  00:12:15  iTODDLERS_BTFO
@@ -1040,7 +1042,7 @@ First hundred users to get the first star on Day 5:
  84) Dec 05  00:14:11  BEN1JEN
  85) Dec 05  00:14:23  jeanlorc
  86) Dec 05  00:14:27  tbodt
- 87) Dec 05  00:14:30  coreymatyas
+ 87) Dec 05  00:14:30  Corey Matyas
  88) Dec 05  00:14:30  Fengyang Wang (AoC++)
  89) Dec 05  00:14:31  (anonymous user #18180)
  90) Dec 05  00:14:37  Starwort
@@ -1052,15 +1054,15 @@ First hundred users to get the first star on Day 5:
  96) Dec 05  00:14:52  Samu Jussila
  97) Dec 05  00:15:04  Igor Naverniouk (AoC++)
  98) Dec 05  00:15:07  Bill Rockenbeck
- 99) Dec 05  00:15:10  fynngodau
+ 99) Dec 05  00:15:10  fynngodau (AoC++)
 100) Dec 05  00:15:11  Michael Goldwasser
 
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 12*
-  {:year 2019}[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+          2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-AuricVault® - Thieves can't steal -- what isn't there! Secure your sensitive data. Simple API. FREE test credentials. Start simplifying your compliance.
-Per Day: 1 2 3 4 5 6
+Novetta - While Santa has elves, we have TS/SCI data scientists rapidly prototyping ML solutions...hot chocolate included. Check us out.
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 6:
 
@@ -1091,7 +1093,7 @@ First hundred users to get both stars on Day 6:
  25) Dec 06  00:08:20  nigelzor
  26) Dec 06  00:08:20  betaveros (AoC++)
  27) Dec 06  00:08:21  Kevin Yap (AoC++)
- 28) Dec 06  00:08:30  rokicki
+ 28) Dec 06  00:08:30  Tomas Rokicki
  29) Dec 06  00:08:33  Erik Amirell Eklöf
  30) Dec 06  00:08:36  Graham White
  31) Dec 06  00:08:39  Joel Jonsson (AoC++)
@@ -1102,7 +1104,7 @@ First hundred users to get both stars on Day 6:
  36) Dec 06  00:09:06  petertseng
  37) Dec 06  00:09:06  tomtheisen
  38) Dec 06  00:09:10  ZED.Charley William Thairo
- 39) Dec 06  00:09:14  nmutalik
+ 39) Dec 06  00:09:14  nmutalik (AoC++)
  40) Dec 06  00:09:14  Sophie Alpert (AoC++)
  41) Dec 06  00:09:20  Chris Trevisan
  42) Dec 06  00:09:20  Angrevol
@@ -1117,7 +1119,7 @@ First hundred users to get both stars on Day 6:
  51) Dec 06  00:09:36  seligman99 (AoC++)
  52) Dec 06  00:09:40  bluepichu
  53) Dec 06  00:09:40  drougge (AoC++)
- 54) Dec 06  00:09:45  msullivan
+ 54) Dec 06  00:09:45  msullivan (AoC++)
  55) Dec 06  00:09:52  (anonymous user #334314)
  56) Dec 06  00:09:55  etotheipi1
  57) Dec 06  00:09:55  gwillen
@@ -1126,7 +1128,7 @@ First hundred users to get both stars on Day 6:
  60) Dec 06  00:10:02  cjquines
  61) Dec 06  00:10:10  kajott
  62) Dec 06  00:10:12  gengkev (AoC++)
- 63) Dec 06  00:10:14  bcc32
+ 63) Dec 06  00:10:14  bcc32 (AoC++)
  64) Dec 06  00:10:15  (anonymous user #60233) (AoC++)
  65) Dec 06  00:10:18  Jennifer Zhou
  66) Dec 06  00:10:19  mikecheb
@@ -1242,7 +1244,7 @@ First hundred users to get the first star on Day 6:
  74) Dec 06  00:05:29  gchan (AoC++)
  75) Dec 06  00:05:30  Emily Dobervich
  76) Dec 06  00:05:33  Nick Frost (AoC++)
- 77) Dec 06  00:05:34  nmutalik
+ 77) Dec 06  00:05:34  nmutalik (AoC++)
  78) Dec 06  00:05:34  Gustav Westling (AoC++)
  79) Dec 06  00:05:34  alexanderhaupt
  80) Dec 06  00:05:35  veryafe (AoC++)
@@ -1258,8 +1260,8 @@ First hundred users to get the first star on Day 6:
  90) Dec 06  00:05:44  lily*
  91) Dec 06  00:05:46  Niko Lockenvitz
  92) Dec 06  00:05:46  (anonymous user #148112)
- 93) Dec 06  00:05:46  bcc32
- 94) Dec 06  00:05:47  rokicki
+ 93) Dec 06  00:05:46  bcc32 (AoC++)
+ 94) Dec 06  00:05:47  Tomas Rokicki
  95) Dec 06  00:05:49  VeeArr (AoC++)
  96) Dec 06  00:05:50  Joshua Berne
  97) Dec 06  00:05:50  zirkonit
@@ -1267,11 +1269,12 @@ First hundred users to get the first star on Day 6:
  99) Dec 06  00:05:51  Andrew Walker
 100) Dec 06  00:05:51  RJ Walsh
 
-Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 14*
-   $year=2019;[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+   <y>2019</y>[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-Xebia - an international network of passionate technologists and craftspeople, dedicated to exploring and creating new frontiers in IT
-Per Day: 1 2 3 4 5 6 7
+AIS - Can You Hack It? Visit our site to take our challenge & join our team!
+Per Day: 1 2 3 4 5 6 7 8
 
 First hundred users to get both stars on Day 7:
 
@@ -1367,12 +1370,12 @@ First hundred users to get both stars on Day 7:
  90) Dec 07  00:29:32  Kroppeb
  91) Dec 07  00:29:38  Cameron Aavik (AoC++)
  92) Dec 07  00:29:40  (anonymous user #733186)
- 93) Dec 07  00:30:01  Steve Mostovoy (AoC++)
+ 93) Dec 07  00:30:01  Stovoy (AoC++)
  94) Dec 07  00:30:08  Starwort
  95) Dec 07  00:30:09  Chris Mohr (AoC++)
  96) Dec 07  00:30:17  Tom Sirgedas
  97) Dec 07  00:30:19  AuroransSolis
- 98) Dec 07  00:30:31  @OskarLarsson
+ 98) Dec 07  00:30:31  Oskar Larsson
  99) Dec 07  00:30:32  Olaf Tomalka
 100) Dec 07  00:30:33  1lann
 First hundred users to get the first star on Day 7:
@@ -1477,3 +1480,215 @@ First hundred users to get the first star on Day 7:
  98) Dec 07  00:09:16  @xAndy
  99) Dec 07  00:09:18  Nathan Fenner
 100) Dec 07  00:09:20  Thomas Holmes
+
+
+Advent of Code[About][Events][Shop][Settings][Log Out]Joel Jonsson (AoC++) 16*
+          2019[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Our sponsors help make Advent of Code possible:
+ING - Tech is simply at the core of what we do.
+Per Day: 1 2 3 4 5 6 7 8
+
+First hundred users to get both stars on Day 8:
+
+  1) Dec 08  00:03:56  tckmn
+  2) Dec 08  00:04:24  David Wahler (AoC++)
+  3) Dec 08  00:05:04  zielmicha
+  4) Dec 08  00:05:42  HiggstonRainbird
+  5) Dec 08  00:05:49  ZED.Charley William Thairo
+  6) Dec 08  00:06:01  (anonymous user #380)
+  7) Dec 08  00:06:08  Sophie Alpert (AoC++)
+  8) Dec 08  00:06:09  Kye W. Shi
+  9) Dec 08  00:06:10  mserrano
+ 10) Dec 08  00:06:10  gengkev (AoC++)
+ 11) Dec 08  00:06:17  petertseng
+ 12) Dec 08  00:06:19  pbfy0
+ 13) Dec 08  00:06:36  betaveros (AoC++)
+ 14) Dec 08  00:06:49  Magnus Holm
+ 15) Dec 08  00:06:56  ethannicholas
+ 16) Dec 08  00:06:58  Unihedron (AoC++)
+ 17) Dec 08  00:06:59  Martin Camacho (AoC++)
+ 18) Dec 08  00:07:17  Adam Gausmann
+ 19) Dec 08  00:07:18  C. Lam
+ 20) Dec 08  00:07:18  Yoshiap
+ 21) Dec 08  00:07:21  bcc32 (AoC++)
+ 22) Dec 08  00:07:23  bluepichu
+ 23) Dec 08  00:07:38  Holden Watson
+ 24) Dec 08  00:07:39  Tomas Rokicki
+ 25) Dec 08  00:07:51  ichyo
+ 26) Dec 08  00:07:51  Michael Fogleman (Sponsor)
+ 27) Dec 08  00:07:56  Erik Amirell Eklöf
+ 28) Dec 08  00:07:56  Jennifer Zhou
+ 29) Dec 08  00:07:57  ethframe
+ 30) Dec 08  00:07:59  epriestley
+ 31) Dec 08  00:08:01  seligman99 (AoC++)
+ 32) Dec 08  00:08:04  Anish (AoC++)
+ 33) Dec 08  00:08:04  Jonathan Paulson
+ 34) Dec 08  00:08:08  glguy (AoC++) (Sponsor)
+ 35) Dec 08  00:08:14  Jouni K. Seppänen (Sponsor)
+ 36) Dec 08  00:08:15  jhawthorn (AoC++)
+ 37) Dec 08  00:08:15  Jonathan Wase
+ 38) Dec 08  00:08:20  Kroppeb
+ 39) Dec 08  00:08:26  Amon Al-Khatib
+ 40) Dec 08  00:08:27  Benedikt Werner
+ 41) Dec 08  00:08:30  Snild Dolkow
+ 42) Dec 08  00:08:30  awychong
+ 43) Dec 08  00:08:36  Jonathan Lie
+ 44) Dec 08  00:08:41  Ben Mirtchouk
+ 45) Dec 08  00:08:41  Ethan Morgan (AoC++)
+ 46) Dec 08  00:08:42  Kate Miháliková (AoC++)
+ 47) Dec 08  00:08:42  Justin Le (AoC++)
+ 48) Dec 08  00:08:43  orez-
+ 49) Dec 08  00:08:49  Tom Sirgedas
+ 50) Dec 08  00:08:50  Jerry Chen
+ 51) Dec 08  00:08:51  Buruiana Sebastian (AoC++)
+ 52) Dec 08  00:08:52  Robert Tupelo-Schneck
+ 53) Dec 08  00:08:52  Liresol
+ 54) Dec 08  00:08:52  iTODDLERS_BTFO
+ 55) Dec 08  00:08:59  Michael Fatemi
+ 56) Dec 08  00:09:01  (anonymous user #233439)
+ 57) Dec 08  00:09:04  Chris Trevisan
+ 58) Dec 08  00:09:05  Bryan Clair
+ 59) Dec 08  00:09:07  jamie
+ 60) Dec 08  00:09:11  Nicholas Hollander (AoC++)
+ 61) Dec 08  00:09:13  Nathan Shirley (Sponsor)
+ 62) Dec 08  00:09:15  George Hotz
+ 63) Dec 08  00:09:16  etotheipi1
+ 64) Dec 08  00:09:18  kajott
+ 65) Dec 08  00:09:19  Eric Tzeng
+ 66) Dec 08  00:09:22  nshepperd
+ 67) Dec 08  00:09:25  (anonymous user #230381)
+ 68) Dec 08  00:09:28  GlenboLake
+ 69) Dec 08  00:09:28  Leo Tenenbaum
+ 70) Dec 08  00:09:29  kevinchung888
+ 71) Dec 08  00:09:32  Edward Keyes
+ 72) Dec 08  00:09:33  leaen
+ 73) Dec 08  00:09:34  m4tx
+ 74) Dec 08  00:09:41  Andrew Taylor
+ 75) Dec 08  00:09:41  (anonymous user #18180)
+ 76) Dec 08  00:09:42  (anonymous user #289309)
+ 77) Dec 08  00:09:43  wim glenn (AoC++)
+ 78) Dec 08  00:09:43  vash3r
+ 79) Dec 08  00:09:45  @spacewalker_1
+ 80) Dec 08  00:09:49  icicl
+ 81) Dec 08  00:09:49  Paul Martinez
+ 82) Dec 08  00:09:52  Søren Fuglede Jørgensen
+ 83) Dec 08  00:09:54  Joshua Wise (AoC++)
+ 84) Dec 08  00:09:56  dsemi (AoC++)
+ 85) Dec 08  00:09:56  Thomas Holmes
+ 86) Dec 08  00:09:57  mingmingrr
+ 87) Dec 08  00:09:59  (anonymous user #733186)
+ 88) Dec 08  00:10:02  Jimmy Mårdell (AoC++)
+ 89) Dec 08  00:10:02  pkktino
+ 90) Dec 08  00:10:02  gwillen
+ 91) Dec 08  00:10:07  (anonymous user #385893)
+ 92) Dec 08  00:10:08  zmzmdr
+ 93) Dec 08  00:10:10  Max Jäger (AoC++)
+ 94) Dec 08  00:10:15  Jonathan Rupp
+ 95) Dec 08  00:10:15  Brian Bucklew (AoC++)
+ 96) Dec 08  00:10:16  jimscchen
+ 97) Dec 08  00:10:17  penteract
+ 98) Dec 08  00:10:17  m-schm
+ 99) Dec 08  00:10:18  Daniel Taylor
+100) Dec 08  00:10:20  cjquines
+First hundred users to get the first star on Day 8:
+
+  1) Dec 08  00:01:03  tckmn
+  2) Dec 08  00:02:03  David Wahler (AoC++)
+  3) Dec 08  00:02:10  Sophie Alpert (AoC++)
+  4) Dec 08  00:02:10  nthistle
+  5) Dec 08  00:02:18  cjquines
+  6) Dec 08  00:02:18  (anonymous user #380)
+  7) Dec 08  00:02:22  Unihedron (AoC++)
+  8) Dec 08  00:02:26  Ben Mirtchouk
+  9) Dec 08  00:02:31  Kye W. Shi
+ 10) Dec 08  00:02:34  petertseng
+ 11) Dec 08  00:02:34  C. Lam
+ 12) Dec 08  00:02:34  zielmicha
+ 13) Dec 08  00:02:36  Michael Fogleman (Sponsor)
+ 14) Dec 08  00:02:43  vash3r
+ 15) Dec 08  00:02:44  iTODDLERS_BTFO
+ 16) Dec 08  00:02:45  gengkev (AoC++)
+ 17) Dec 08  00:02:47  Jouni K. Seppänen (Sponsor)
+ 18) Dec 08  00:02:49  Kroppeb
+ 19) Dec 08  00:02:56  ZED.Charley William Thairo
+ 20) Dec 08  00:02:57  bcc32 (AoC++)
+ 21) Dec 08  00:03:01  HiggstonRainbird
+ 22) Dec 08  00:03:03  bradleysigma
+ 23) Dec 08  00:03:08  betaveros (AoC++)
+ 24) Dec 08  00:03:10  Anish (AoC++)
+ 25) Dec 08  00:03:12  ethannicholas
+ 26) Dec 08  00:03:19  Holden Watson
+ 27) Dec 08  00:03:21  Thomas Holmes
+ 28) Dec 08  00:03:25  Chris Trevisan
+ 29) Dec 08  00:03:25  Martin Camacho (AoC++)
+ 30) Dec 08  00:03:25  Bryan Clair
+ 31) Dec 08  00:03:25  ffutop
+ 32) Dec 08  00:03:25  Benedikt Werner
+ 33) Dec 08  00:03:27  epriestley
+ 34) Dec 08  00:03:29  hltk
+ 35) Dec 08  00:03:32  Buruiana Sebastian (AoC++)
+ 36) Dec 08  00:03:32  leijurv
+ 37) Dec 08  00:03:33  arrowbounce
+ 38) Dec 08  00:03:34  (anonymous user #148112)
+ 39) Dec 08  00:03:35  Magnus Holm
+ 40) Dec 08  00:03:36  Oleg Godovykh (AoC++)
+ 41) Dec 08  00:03:36  Liresol
+ 42) Dec 08  00:03:36  Måns Magnusson
+ 43) Dec 08  00:03:36  MarshallOfSound
+ 44) Dec 08  00:03:37  mserrano
+ 45) Dec 08  00:03:38  Erik Amirell Eklöf
+ 46) Dec 08  00:03:43  kentonlam
+ 47) Dec 08  00:03:48  Justin Le (AoC++)
+ 48) Dec 08  00:03:49  Oskar Larsson
+ 49) Dec 08  00:03:49  Tomas Rokicki
+ 50) Dec 08  00:03:51  Adam Gausmann
+ 51) Dec 08  00:03:52  Lance Nathan
+ 52) Dec 08  00:03:54  pkktino
+ 53) Dec 08  00:03:55  Jerry Chen
+ 54) Dec 08  00:03:55  crazymerlyn
+ 55) Dec 08  00:03:56  (anonymous user #18180)
+ 56) Dec 08  00:03:56  awychong
+ 57) Dec 08  00:03:57  Sławek Biel
+ 58) Dec 08  00:04:01  ChrisPritchard (AoC++)
+ 59) Dec 08  00:04:02  mingmingrr
+ 60) Dec 08  00:04:03  Joshua Wise (AoC++)
+ 61) Dec 08  00:04:03  Stuart Turner (AoC++)
+ 62) Dec 08  00:04:03  Xavier Cooney
+ 63) Dec 08  00:04:04  gltronred
+ 64) Dec 08  00:04:07  connorjayr
+ 65) Dec 08  00:04:07  glguy (AoC++) (Sponsor)
+ 66) Dec 08  00:04:09  Oleg Rudenko
+ 67) Dec 08  00:04:10  dsemi (AoC++)
+ 68) Dec 08  00:04:10  Jennifer Zhou
+ 69) Dec 08  00:04:13  (anonymous user #233439)
+ 70) Dec 08  00:04:15  Wassim Omais
+ 71) Dec 08  00:04:16  cole
+ 72) Dec 08  00:04:16  Sahil Bhasin
+ 73) Dec 08  00:04:16  Javier Marinkovic
+ 74) Dec 08  00:04:17  Ikusaba-san
+ 75) Dec 08  00:04:22  bluepichu
+ 76) Dec 08  00:04:22  Snild Dolkow
+ 77) Dec 08  00:04:23  m4tx
+ 78) Dec 08  00:04:23  HeyItsBATMAN (AoC++)
+ 79) Dec 08  00:04:24  Ethan Morgan (AoC++)
+ 80) Dec 08  00:04:25  Robert Tupelo-Schneck
+ 81) Dec 08  00:04:25  D. Salgado
+ 82) Dec 08  00:04:25  ruuddotorg
+ 83) Dec 08  00:04:26  David Yan
+ 84) Dec 08  00:04:26  kejadlen (AoC++)
+ 85) Dec 08  00:04:27  Sebastian Yuen
+ 86) Dec 08  00:04:27  bob-white (AoC++)
+ 87) Dec 08  00:04:28  m-schm
+ 88) Dec 08  00:04:28  Matthew Ramina
+ 89) Dec 08  00:04:29  Tom Sirgedas
+ 90) Dec 08  00:04:31  kajott
+ 91) Dec 08  00:04:31  pbfy0
+ 92) Dec 08  00:04:33  Nick Gavalas
+ 93) Dec 08  00:04:34  Joel Jonsson (AoC++)
+ 94) Dec 08  00:04:35  Yoshiap
+ 95) Dec 08  00:04:35  Dmitry Kudriavtsev (AoC++)
+ 96) Dec 08  00:04:36  Andrew Taylor
+ 97) Dec 08  00:04:37  Dan Roche
+ 98) Dec 08  00:04:37  leaen
+ 99) Dec 08  00:04:37  etotheipi1
+100) Dec 08  00:04:40  Leo Tenenbaum
