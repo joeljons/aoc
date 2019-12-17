@@ -22,6 +22,8 @@ class Program {
     public void reset() {
         Arrays.fill(g, 0);
         System.arraycopy(initial, 0, g, 0, initial.length);
+        pos = 0;
+        base = 0;
     }
 
     public void run() {
@@ -109,5 +111,12 @@ class Program {
     private int getMode(long instruction, int argNum) {
         long divide = argNum == 1 ? 100 : (argNum == 2 ? 1000 : (argNum == 3 ? 10000 : 0));
         return (int) ((instruction / divide) % 10);
+    }
+
+    public void write(String str) {
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            input.add((long)c);
+        }
     }
 }
