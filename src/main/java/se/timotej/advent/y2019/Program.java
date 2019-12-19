@@ -6,17 +6,21 @@ import java.util.Queue;
 
 class Program {
     long[] initial;
-    long[] g = new long[1024 * 1024];
-    long base = 0;
+    long[] g;
+    long base;
     volatile boolean done = false;
     Queue<Long> input = new ArrayDeque<>();
     Queue<Long> output = new ArrayDeque<>();
     int pos;
 
     public Program(String str) {
+        this(str, 1024 * 1024);
+    }
+
+    public Program(String str, int progLen) {
         initial = Util.findAllLongs(str).stream().mapToLong(a -> a).toArray();
+        g = new long[progLen];
         reset();
-        pos = 0;
     }
 
     public void reset() {
