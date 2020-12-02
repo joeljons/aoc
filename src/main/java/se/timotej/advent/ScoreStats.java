@@ -29,7 +29,7 @@ import java.util.TreeMap;
 public class ScoreStats {
 
     private static final ZoneId CET = ZoneId.of("CET");
-    public static final String LEADERBOARD = "187443";
+    public static final String LEADERBOARD = "36124";
 
     public static void main(String[] args) throws IOException {
         Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
@@ -37,7 +37,7 @@ public class ScoreStats {
         Map<String, Map<LocalDate, Integer>> starsPerDay = new TreeMap<>();
         Map<String, Map<LocalDate, Integer>> solveTimeForLevel2 = new TreeMap<>();
         Map<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> fastestPerProblem = new TreeMap<>();
-        for (int year = 2015; year <= 2019; year++) {
+        for (int year = 2020; year <= 2020; year++) {
             Stats stats = gson.fromJson(get(year), Stats.class);
             for (Member member : stats.members.values()) {
                 for (Map.Entry<Integer, CompletionDay> integerCompletionDayEntry :
@@ -60,13 +60,13 @@ public class ScoreStats {
                 }
             }
         }
-        for (Map.Entry<String, Map<LocalDate, Integer>> outerEntry : starsPerDay.entrySet()) {
+        /*for (Map.Entry<String, Map<LocalDate, Integer>> outerEntry : starsPerDay.entrySet()) {
             System.out.println();
             System.out.println(String.format("Stars earned per day for %s:", outerEntry.getKey()));
             for (Map.Entry<LocalDate, Integer> entry : outerEntry.getValue().entrySet()) {
                 System.out.println(String.format("%s %d", entry.getKey(), entry.getValue()));
             }
-        }
+        }*/
         for (Map.Entry<String, Map<LocalDate, Integer>> outerEntry : solveTimeForLevel2.entrySet()) {
             System.out.println();
             System.out.println(String.format("Solve time for level2 for %s:", outerEntry.getKey()));

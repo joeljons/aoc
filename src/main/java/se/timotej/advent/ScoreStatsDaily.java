@@ -16,7 +16,7 @@ public class ScoreStatsDaily {
     private static final String ME = "Joel Jonsson";
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("scores_2019.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("scores_2020.txt"));
         String str;
         Pattern pattern = Pattern.compile("(...)\\) Dec (\\d\\d)  \\d\\d:\\d\\d:\\d\\d  (.+)");
         int lastDay = 1;
