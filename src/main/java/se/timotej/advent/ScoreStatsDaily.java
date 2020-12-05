@@ -49,7 +49,7 @@ public class ScoreStatsDaily {
             }
         }
         printMyPlacement(lastDay, scores, lastScore);
-/*
+
         List<Map.Entry<String, Integer>> sortedList = toSorted(scores);
         lastScore = 0;
         int lastPlace = 0;
@@ -62,7 +62,7 @@ public class ScoreStatsDaily {
             }
             System.out.println(String.format("%4d:\t%4d\t%4.1f\t%s", lastPlace, entry.getValue(),
                     101 - (entry.getValue() / 2.0 / dayCount), entry.getKey()));
-        }*/
+        }
     }
 
     private static List<Map.Entry<String, Integer>> toSorted(Map<String, Integer> scores) {

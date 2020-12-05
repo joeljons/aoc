@@ -29,6 +29,7 @@ import java.util.TreeMap;
 public class ScoreStats {
 
     private static final ZoneId CET = ZoneId.of("CET");
+    //public static final String LEADERBOARD = "187443";
     public static final String LEADERBOARD = "36124";
 
     public static void main(String[] args) throws IOException {
@@ -129,7 +130,7 @@ public class ScoreStats {
 
 
     public static BufferedReader get(int year) throws IOException {
-        Path path = Paths.get("stats_" + year + ".json");
+        Path path = Paths.get("stats_" + year + "_" + LEADERBOARD + ".json");
         File file = path.toFile();
         if (file.exists()) {
             Instant modified = Instant.ofEpochMilli(file.lastModified());
