@@ -16,32 +16,20 @@ public class Advent6b {
 
     private int calc(List<String> strs) {
         int sum = 0;
-        Map<Character, Integer> q = new HashMap<>();
-        int antal = 0;
-        for (String str : strs) {
-            if (str.isEmpty()) {
-                for (Integer value : q.values()) {
-                    if (value == antal) {
-                        sum++;
-                    }
+        for (List<String> group : Util.splitByDoubleNewline(strs)) {
+            Map<Character, Integer> q = new HashMap<>();
+            for (String str : group) {
+                for (int i = 0; i < str.length(); i++) {
+                    char c = str.charAt(i);
+                    q.merge(c, 1, Integer::sum);
                 }
-                q = new HashMap<>();
-                antal = 0;
-                continue;
             }
-            antal++;
-            for (int i = 0; i < str.length(); i++) {
-                char c = str.charAt(i);
-                q.merge(c, 1, Integer::sum);
-            }
-        }
-        for (Integer value : q.values()) {
-            if (value == antal) {
-                sum++;
+            for (Integer value : q.values()) {
+                if (value == group.size()) {
+                    sum++;
+                }
             }
         }
         return sum;
     }
-
-
 }

@@ -20,6 +20,7 @@ public class Util {
     public static List<Integer> findAllInts(String haystack) {
         return findAll(haystack, "[-\\d]+", Integer::parseInt);
     }
+
     public static List<Long> findAllLongs(String haystack) {
         return findAll(haystack, "[-\\d]+", Long::parseLong);
     }
@@ -40,6 +41,23 @@ public class Util {
             array[i] = Integer.parseInt(split[i].trim());
         }
         return array;
+    }
+
+    public static List<List<String>> splitByDoubleNewline(List<String> strs) {
+        List<List<String>> groups = new ArrayList<>();
+        List<String> group = new ArrayList<>();
+        for (String str : strs) {
+            if (str.isEmpty()) {
+                groups.add(group);
+                group = new ArrayList<>();
+            } else {
+                group.add(str);
+            }
+        }
+        if (!group.isEmpty()) {
+            groups.add(group);
+        }
+        return groups;
     }
 
     public static int[] intArray(List<String> strs) {
