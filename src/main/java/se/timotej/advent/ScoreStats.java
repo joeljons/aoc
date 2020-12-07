@@ -18,6 +18,7 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -70,9 +71,9 @@ public class ScoreStats {
         }*/
         for (Map.Entry<String, Map<LocalDate, Integer>> outerEntry : solveTimeForLevel2.entrySet()) {
             System.out.println();
-            System.out.println(String.format("Solve time for level2 for %s:", outerEntry.getKey()));
+            System.out.printf("Solve time for level2 for %s:%n", outerEntry.getKey());
             for (Map.Entry<LocalDate, Integer> entry : outerEntry.getValue().entrySet()) {
-                System.out.println(String.format("%s %s", entry.getKey(), formatDuration(entry.getValue())));
+                System.out.printf("%s %s%n", entry.getKey(), formatDuration(entry.getValue()));
             }
         }
         System.out.println();
@@ -80,13 +81,26 @@ public class ScoreStats {
         for (Map.Entry<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> entry : fastestPerProblem.entrySet()) {
             List<Pair<Integer, String>> list = entry.getValue();
             Collections.sort(list);
-            System.out.print(String.format("%s_%d %s", entry.getKey().getKey(), entry.getKey().getValue(),
-                    StringUtils.rightPad(list.get(0).getValue(), 13)));
+            System.out.printf("%s_%d %s", entry.getKey().getKey(), entry.getKey().getValue(),
+                    StringUtils.rightPad(list.get(0).getValue(), 13));
             if (list.size() > 1) {
-                System.out.print(String.format(" %s %s", StringUtils.rightPad(list.get(1).getValue(), 14),
-                        formatDuration(list.get(1).getKey() - list.get(0).getKey())));
+                System.out.printf(" %s %s", StringUtils.rightPad(list.get(1).getValue(), 14),
+                        formatDuration(list.get(1).getKey() - list.get(0).getKey()));
             }
             System.out.println();
+        }
+
+        for (Map.Entry<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> entry : fastestPerProblem.entrySet()) {
+            List<Pair<Integer, String>> list = entry.getValue();
+            Collections.sort(list);
+            Instant relaseTime = entry.getKey().getKey().atStartOfDay(ZoneId.of("US/Eastern")).toInstant();
+            System.out.println();
+            System.out.printf("Solve time for %s level %d%n", entry.getKey().getKey(), entry.getKey().getValue());
+            for (Pair<Integer, String> listEntry : list) {
+                System.out.printf("%s %s%n",
+                        StringUtils.rightPad(formatDuration((int) (listEntry.getKey()- relaseTime.getEpochSecond())), 14),
+                        listEntry.getValue());
+            }
         }
     }
 
@@ -113,8 +127,6 @@ public class ScoreStats {
 
     private static void addToFastestPerProblem(Map<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> fastestPerProblem, Pair<LocalDate, Integer> key, CompletionLevel completionLevel, String name) {
         if (completionLevel != null) {
-            LocalDate completionDate = LocalDate.from(
-                    Instant.ofEpochSecond(completionLevel.getStarTs).atZone(CET));
             fastestPerProblem.computeIfAbsent(key, (k) -> new ArrayList<>()).add(Pair.of(completionLevel.getStarTs,
                     name));
         }
