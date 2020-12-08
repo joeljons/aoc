@@ -18,7 +18,6 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -30,7 +29,8 @@ import java.util.TreeMap;
 public class ScoreStats {
 
     private static final ZoneId CET = ZoneId.of("CET");
-    //public static final String LEADERBOARD = "187443";
+//    public static final String LEADERBOARD = "187443";
+//    public static final String LEADERBOARD = "193188";
     public static final String LEADERBOARD = "36124";
 
     public static void main(String[] args) throws IOException {
@@ -39,9 +39,14 @@ public class ScoreStats {
         Map<String, Map<LocalDate, Integer>> starsPerDay = new TreeMap<>();
         Map<String, Map<LocalDate, Integer>> solveTimeForLevel2 = new TreeMap<>();
         Map<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> fastestPerProblem = new TreeMap<>();
+        Map<String, Pair<Integer, Long>> totalSolved = new TreeMap<>();
         for (int year = 2020; year <= 2020; year++) {
             Stats stats = gson.fromJson(get(year), Stats.class);
-            for (Member member : stats.members.values()) {
+            for (Map.Entry<Integer, Member> entry : stats.members.entrySet()) {
+                Member member = entry.getValue();
+                if (member.name == null) {
+                    member.name = String.format("(anonymous user #%s)", entry.getKey());
+                }
                 for (Map.Entry<Integer, CompletionDay> integerCompletionDayEntry :
                         member.completionDayLevel.entrySet()) {
                     int day = integerCompletionDayEntry.getKey();
@@ -50,15 +55,21 @@ public class ScoreStats {
                             completionDay.level1);
                     addToStarsPerDay(starsPerDay.computeIfAbsent(member.name, k -> new TreeMap<>()),
                             completionDay.level2);
+                    LocalDate date = LocalDate.of(year,
+                            12, day);
                     if (completionDay.level1 != null && completionDay.level2 != null) {
-                        solveTimeForLevel2.computeIfAbsent(member.name, k -> new TreeMap<>()).put(LocalDate.of(year,
-                                12, day),
+                        solveTimeForLevel2.computeIfAbsent(member.name, k -> new TreeMap<>()).put(date,
                                 completionDay.level2.getStarTs - completionDay.level1.getStarTs);
                     }
-                    addToFastestPerProblem(fastestPerProblem, Pair.of(LocalDate.of(year, 12, day), 1),
+                    addToFastestPerProblem(fastestPerProblem, Pair.of(date, 1),
                             completionDay.level1, member.name);
-                    addToFastestPerProblem(fastestPerProblem, Pair.of(LocalDate.of(year, 12, day), 2),
+                    addToFastestPerProblem(fastestPerProblem, Pair.of(date, 2),
                             completionDay.level2, member.name);
+                    if (completionDay.level2 == null) {
+                        addToTotalSolved(totalSolved, completionDay.level1, member.name, date, 1);
+                    } else {
+                        addToTotalSolved(totalSolved, completionDay.level2, member.name, date, 2);
+                    }
                 }
             }
         }
@@ -98,13 +109,22 @@ public class ScoreStats {
             System.out.printf("Solve time for %s level %d%n", entry.getKey().getKey(), entry.getKey().getValue());
             for (Pair<Integer, String> listEntry : list) {
                 System.out.printf("%s %s%n",
-                        StringUtils.rightPad(formatDuration((int) (listEntry.getKey()- relaseTime.getEpochSecond())), 14),
+                        StringUtils.rightPad(formatDuration((int) (listEntry.getKey() - relaseTime.getEpochSecond())), 14),
                         listEntry.getValue());
             }
         }
+
+        System.out.println();
+        System.out.println("Total solve time");
+        totalSolved.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue())
+                .forEach(entry -> System.out.printf("%2d* %s %s%n",
+                        -entry.getValue().getLeft(),
+                        StringUtils.rightPad(formatDuration(entry.getValue().getRight()), 15),
+                        entry.getKey()));
     }
 
-    private static String formatDuration(int t) {
+    private static String formatDuration(long t) {
         String out = t % 60 + "s";
         t /= 60;
         if (t > 0) {
@@ -137,6 +157,17 @@ public class ScoreStats {
             LocalDate completionDate = LocalDate.from(
                     Instant.ofEpochSecond(completionLevel.getStarTs).atZone(CET));
             starsPerDay.merge(completionDate, 1, Integer::sum);
+        }
+    }
+
+    private static void addToTotalSolved(Map<String, Pair<Integer, Long>> totalSolved, CompletionLevel completionLevel, String name, LocalDate date, int stars) {
+        if (completionLevel != null) {
+            Instant releaseTime = date.atStartOfDay(ZoneId.of("US/Eastern")).toInstant();
+            long solveTime = completionLevel.getStarTs - releaseTime.getEpochSecond();
+            if (date.getDayOfMonth() == 1) {
+                solveTime = 0;
+            }
+            totalSolved.merge(name, Pair.of(-stars, solveTime), (p1, p2) -> Pair.of(p1.getLeft() + p2.getLeft(), p1.getRight() + p2.getRight()));
         }
     }
 
