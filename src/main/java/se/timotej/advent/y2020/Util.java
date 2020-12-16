@@ -21,8 +21,16 @@ public class Util {
         return findAll(haystack, "[-\\d]+", Integer::parseInt);
     }
 
+    public static List<Integer> findAllPositiveInts(String haystack) {
+        return findAll(haystack, "[\\d]+", Integer::parseInt);
+    }
+
     public static List<Long> findAllLongs(String haystack) {
         return findAll(haystack, "[-\\d]+", Long::parseLong);
+    }
+
+    public static List<Long> findAllPositiveLongs(String haystack) {
+        return findAll(haystack, "[\\d]+", Long::parseLong);
     }
 
     public static int[] intArray(String str) {
