@@ -48,8 +48,8 @@ public class Advent16b {
                     if (valid.contains(allInt)) {
                         antal++;
                     }
-                    minAntal = Math.min(minAntal, antal);
                 }
+                minAntal = Math.min(minAntal, antal);
             }
             if (minAntal != 0) {
                 validTickets.add(allInts);
