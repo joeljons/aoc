@@ -15,7 +15,7 @@ public class Advent23b {
         Online.submit(svar);
     }
 
-    Map<Integer, Node> map = new HashMap<>();
+    Node[] map = new Node[1000001];
 
     private long calc(List<String> strs) {
         String now = strs.get(0);
@@ -33,7 +33,7 @@ public class Advent23b {
         for (Integer value : g) {
             final Node node = new Node();
             node.value = value;
-            map.put(value, node);
+            map[value] = node;
             if (lastNode != null) {
                 lastNode.next = node;
             }
@@ -48,7 +48,7 @@ public class Advent23b {
             current = move(current);
         }
 
-        Node one = map.get(1);
+        Node one = map[1];
         Node next = one.next;
         Node next2 = next.next;
         long svar = next.value;
@@ -73,7 +73,7 @@ public class Advent23b {
                 destination = 1000000;
             }
         }
-        Node dest = map.get(destination);
+        Node dest = map[destination];
         pickup.next.next.next = dest.next;
         dest.next = pickup;
         return node.next;
