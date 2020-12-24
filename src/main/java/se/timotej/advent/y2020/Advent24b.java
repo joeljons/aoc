@@ -40,20 +40,22 @@ public class Advent24b {
 
     private Map<Pair<Integer, Integer>, Boolean> flip(Map<Pair<Integer, Integer>, Boolean> from) {
         Map<Pair<Integer, Integer>, Boolean> to = new HashMap<>();
-        for (int y = -150; y <= 150; y++) {
-            for (int x = -150; x <= 150; x++) {
+        for (Pair<Integer, Integer> pos : from.keySet()) {
+            for (int dir = 0; dir < dx.length; dir++) {
+                int x = pos.getRight() + dx[dir];
+                int y = pos.getLeft() + dy[dir];
                 final Boolean now = from.getOrDefault(Pair.of(y, x), false);
                 int adjacent = 0;
-                for (int dir = 0; dir < dx.length; dir++) {
-                    int xx = x + dx[dir];
-                    int yy = y + dy[dir];
+                for (int dir2 = 0; dir2 < dx.length; dir2++) {
+                    int xx = x + dx[dir2];
+                    int yy = y + dy[dir2];
                     if (from.getOrDefault(Pair.of(yy, xx), false)) {
                         adjacent++;
                     }
                 }
                 if (now) {
                     if (adjacent == 0 || adjacent > 2) {
-                        to.put(Pair.of(y, x), false);
+                        //to.put(Pair.of(y, x), false);
                     } else {
                         to.put(Pair.of(y, x), true);
                     }
@@ -61,7 +63,7 @@ public class Advent24b {
                     if (adjacent == 2) {
                         to.put(Pair.of(y, x), true);
                     } else {
-                        to.put(Pair.of(y, x), false);
+                        //to.put(Pair.of(y, x), false);
                     }
                 }
             }
