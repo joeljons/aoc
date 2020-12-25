@@ -15,13 +15,13 @@ import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -82,7 +82,7 @@ public class ScoreStats {
         }*/
         for (Map.Entry<String, Map<LocalDate, Integer>> outerEntry : solveTimeForLevel2.entrySet()) {
             System.out.println();
-            System.out.printf("Solve time for level2 for %s:%n", outerEntry.getKey());
+            System.out.printf("Solve time for level1->level2 for %s:%n", outerEntry.getKey());
             for (Map.Entry<LocalDate, Integer> entry : outerEntry.getValue().entrySet()) {
                 System.out.printf("%s %s%n", entry.getKey(), formatDuration(entry.getValue()));
             }
@@ -101,6 +101,7 @@ public class ScoreStats {
             System.out.println();
         }
 
+        Map<String, Integer> wins = new HashMap<>();
         for (Map.Entry<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> entry : fastestPerProblem.entrySet()) {
             List<Pair<Integer, String>> list = entry.getValue();
             Collections.sort(list);
@@ -112,7 +113,16 @@ public class ScoreStats {
                         StringUtils.rightPad(formatDuration((int) (listEntry.getKey() - relaseTime.getEpochSecond())), 14),
                         listEntry.getValue());
             }
+            if (entry.getKey().getKey().getDayOfMonth() != 1) {
+                wins.merge(list.get(0).getValue(), 1, Integer::sum);
+            }
         }
+
+        System.out.println();
+        System.out.println("Win count");
+        wins.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEach(entry -> System.out.printf("%2d %s%n", entry.getValue(), entry.getKey()));
 
         System.out.println();
         System.out.println("Total solve time");
@@ -177,10 +187,10 @@ public class ScoreStats {
         File file = path.toFile();
         if (file.exists()) {
             Instant modified = Instant.ofEpochMilli(file.lastModified());
-            if (Duration.between(modified, Instant.now()).compareTo(Duration.of(4, ChronoUnit.HOURS)) > 0) {
-                System.out.println("Refresh cache for " + path);
-                file.delete();
-            }
+            //if (Duration.between(modified, Instant.now()).compareTo(Duration.of(4, ChronoUnit.HOURS)) > 0) {
+            System.out.println("Refresh cache for " + path);
+            file.delete();
+            //}
         }
         if (!file.exists()) {
             URL url = new URL("https://adventofcode.com/" + year + "/leaderboard/private/view/" + LEADERBOARD + ".json");
