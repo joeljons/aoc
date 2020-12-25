@@ -11,25 +11,14 @@ public class Advent25 {
         Online.submit(svar);
     }
 
-
     private long calc(List<String> strs) {
         final int[] in = Util.intArray(strs);
-        final int loopSize = getLoopSize(in[0]);
-        long val = 1;
-        for (int i = 0; i < loopSize; i++) {
-            val = (val * in[1]) % 20201227;
+        long val0 = 1;
+        long val1 = 1;
+        while(val0 != in[0]) {
+            val0 = (val0 * 7) % 20201227;
+            val1 = (val1 * in[1]) % 20201227;
         }
-
-        return val;
-    }
-
-    private int getLoopSize(long target) {
-        long val = 1;
-        for (int i = 0; ; i++) {
-            if (val == target) {
-                return i;
-            }
-            val = (val * 7) % 20201227;
-        }
+        return val1;
     }
 }
