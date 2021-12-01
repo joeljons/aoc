@@ -16,7 +16,7 @@ public class ScoreStatsDaily {
     private static final String ME = "Joel Jonsson";
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("scores_2020.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("scores_2021.txt"));
         String str;
         Pattern pattern = Pattern.compile("(...)\\) Dec (\\d\\d)  \\d\\d:\\d\\d:\\d\\d  (.+)");
         int lastDay = 1;
@@ -35,9 +35,6 @@ public class ScoreStatsDaily {
                 }
                 if (name.endsWith(" (AoC++)")) {
                     name = name.substring(0, name.length() - 8);
-                }
-                if (name.equals("dwahler")) {
-                    name ="David Wahler";
                 }
                 if (day != lastDay) {
                     dayCount++;

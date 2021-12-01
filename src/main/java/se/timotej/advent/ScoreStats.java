@@ -40,7 +40,7 @@ public class ScoreStats {
         Map<String, Map<LocalDate, Integer>> solveTimeForLevel2 = new TreeMap<>();
         Map<Pair<LocalDate, Integer>, List<Pair<Integer, String>>> fastestPerProblem = new TreeMap<>();
         Map<String, Pair<Integer, Long>> totalSolved = new TreeMap<>();
-        for (int year = 2020; year <= 2020; year++) {
+        for (int year = 2021; year <= 2021; year++) {
             Stats stats = gson.fromJson(get(year), Stats.class);
             for (Map.Entry<Integer, Member> entry : stats.members.entrySet()) {
                 Member member = entry.getValue();
