@@ -1,7 +1,5 @@
 package se.timotej.advent.y2022;
 
-import se.timotej.advent.y2021.Util;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
