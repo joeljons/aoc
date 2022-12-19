@@ -74,7 +74,7 @@ public class Online {
 
 
     public static List<String> get(int day, String suffix) throws IOException {
-        Path path = Paths.get("input_2020_" + day + suffix + ".txt");
+        Path path = Paths.get("input_2021_" + day + suffix + ".txt");
         return Files.readAllLines(path);
     }
 
