@@ -1,0 +1,114 @@
+package se.timotej.advent.y2022;
+
+import org.apache.commons.lang3.tuple.Pair;
+import org.apache.commons.lang3.tuple.Triple;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Advent24b {
+    public static void main(String[] args) throws IOException {
+        int svar = new Advent24b().calc(Online.get());
+        System.out.println("svar = " + svar);
+        Online.submit(svar);
+    }
+
+    int[] dx = {0, 0, -1, 1, 0};
+    int[] dy = {-1, 1, 0, 0, 0};
+    int maxy;
+    int maxx;
+
+    private int calc(List<String> strs) {
+        int svar = 0;
+        maxy = strs.size();
+        maxx = strs.get(0).length();
+        List<Blizzard> blizzards = new ArrayList<>();
+        for (int y = 0; y < maxy; y++) {
+            for (int x = 0; x < maxx; x++) {
+                char c = strs.get(y).charAt(x);
+                if (c != '#' && c != '.') {
+                    blizzards.add(new Blizzard(x, y, c));
+                }
+            }
+        }
+        Set<Triple<Integer, Integer, Integer>> now = new HashSet<>();
+        now.add(Triple.of(1, 0, 0));
+        while (!now.contains(Triple.of(maxx - 2, maxy - 1, 3))) {
+            svar++;
+            Set<Pair<Integer, Integer>> blizPos = new TreeSet<>();
+            for (Blizzard blizzard : blizzards) {
+                blizzard.move();
+                blizPos.add(Pair.of(blizzard.x, blizzard.y));
+            }
+            Set<Triple<Integer, Integer, Integer>> next = new HashSet<>();
+            for (Triple<Integer, Integer, Integer> nowPos : now) {
+                int x = nowPos.getLeft();
+                int y = nowPos.getMiddle();
+                int progress = nowPos.getRight();
+                for (int dir = 0; dir < 5; dir++) {
+                    int xx = x + dx[dir];
+                    int yy = y + dy[dir];
+                    if (xx < 0 || xx >= maxx || yy < 0 || yy >= maxy || strs.get(yy).charAt(xx) == '#' || blizPos.contains(Pair.of(xx, yy))) {
+                        continue;
+                    }
+                    int nextProgress = progress;
+                    if ((progress == 0 || progress == 2) && xx == maxx - 2 && yy == maxy - 1) {
+                        nextProgress++;
+                    } else if (progress == 1 && xx == 1 && yy == 0) {
+                        nextProgress++;
+                    }
+                    Triple<Integer, Integer, Integer> nextAdd = Triple.of(xx, yy, nextProgress);
+                    next.add(nextAdd);
+                }
+            }
+            now = next;
+        }
+        return svar;
+    }
+
+    private class Blizzard {
+        int x;
+        int y;
+        int dx;
+        int dy;
+
+        public Blizzard(int x, int y, char dirChar) {
+            this.x = x;
+            this.y = y;
+            if (dirChar == '^') {
+                dy = -1;
+            }
+            if (dirChar == 'v') {
+                dy = 1;
+            }
+            if (dirChar == '<') {
+                dx = -1;
+            }
+            if (dirChar == '>') {
+                dx = 1;
+            }
+        }
+
+        public void move() {
+            x = x + dx;
+            y = y + dy;
+            if (x == maxx - 1) {
+                x = 1;
+            }
+            if (x == 0) {
+                x = maxx - 2;
+            }
+            if (y == maxy - 1) {
+                y = 1;
+            }
+            if (y == 0) {
+                y = maxy - 2;
+            }
+        }
+    }
+}
+//729
