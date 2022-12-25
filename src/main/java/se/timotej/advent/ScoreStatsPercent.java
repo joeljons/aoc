@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class ScoreStatsPercent {
 
-    public static final int YEAR = 2021;
+    public static final int YEAR = 2022;
 
     public static void main(String[] args) throws IOException {
         LocalTime[][] worstTimes = getWorstSolveTimes();
