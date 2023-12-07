@@ -22,6 +22,8 @@ import java.util.regex.Pattern;
 
 public class Online {
 
+    private static boolean gotZero = false;
+
     public static void main(String[] args) throws IOException {
         List<String> today = getToday();
         for (String line : today) {
@@ -61,6 +63,9 @@ public class Online {
     }
 
     public static List<String> get(int day) throws IOException {
+        if (day == 0) {
+            gotZero = true;
+        }
         Path path = Paths.get("input_2023_" + day + ".txt");
         if (!path.toFile().exists()) {
             URL url = new URL("https://adventofcode.com/2023/day/" + day + "/input");
@@ -120,6 +125,10 @@ public class Online {
 
     public static boolean submit(int day, int level, String answer) {
         System.out.println("answer = " + answer);
+        if (gotZero) {
+            System.out.println("Will not submit after get(0)");
+            return false;
+        }
         if (!(day == 25 && level == 2) && ("0".equals(answer) || StringUtils.isEmpty(answer))) {
             System.out.println("Will not submit this answer ('" + answer + "')");
             return false;
@@ -173,7 +182,8 @@ public class Online {
                             }
                         }
                         System.out.println("sleeptime = " + sleeptime);
-                    }                }
+                    }
+                }
                 wr.close();
                 rd.close();
                 if (retry) {
@@ -191,4 +201,5 @@ public class Online {
             submit(25, 2, 0);
         }
         return won;
-    }}
+    }
+}
