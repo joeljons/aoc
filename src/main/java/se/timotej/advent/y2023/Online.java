@@ -23,6 +23,7 @@ import java.util.regex.Pattern;
 public class Online {
 
     private static boolean gotZero = false;
+    private static long startNanos;
 
     public static void main(String[] args) throws IOException {
         List<String> today = getToday();
@@ -74,13 +75,18 @@ public class Online {
                     "session=" + Files.readString(Path.of("cookie.txt")));
             Files.copy(urlConnection.getInputStream(), path);
         }
-        return Files.readAllLines(path);
+        return readAndStartTimer(path);
     }
-
 
     public static List<String> get(int day, String suffix) throws IOException {
         Path path = Paths.get("input_2023_" + day + suffix + ".txt");
-        return Files.readAllLines(path);
+        return readAndStartTimer(path);
+    }
+
+    private static List<String> readAndStartTimer(Path path) throws IOException {
+        List<String> strings = Files.readAllLines(path);
+        startNanos = System.nanoTime();
+        return strings;
     }
 
     private static Pair<Integer, Integer> getDayAndLevel() {
@@ -132,6 +138,10 @@ public class Online {
         if (!(day == 25 && level == 2) && ("0".equals(answer) || StringUtils.isEmpty(answer))) {
             System.out.println("Will not submit this answer ('" + answer + "')");
             return false;
+        }
+        if (startNanos != 0) {
+            long durationMs = (System.nanoTime() - startNanos) / 1000000;
+            System.out.printf("Time taken: %.3f s%n", durationMs / 1000.0);
         }
         boolean won = false;
         try {
