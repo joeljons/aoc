@@ -113,6 +113,13 @@ public class Util {
         }
         return matrix;
     }
+    public static char[][] charMatrix(List<String> strs) {
+        char[][] matrix = new char[strs.size()][];
+        for (int i = 0; i < strs.size(); i++) {
+            matrix[i] = strs.get(i).toCharArray();
+        }
+        return matrix;
+    }
 
     public static List<Integer> intList(int[] ints) {
         List<Integer> list = new ArrayList<>();
