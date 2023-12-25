@@ -13,3 +13,4 @@ To get the automagically download input files and upload answers working put you
 | 2020 | 199   | 258         |
 | 2021 | 224   | 238         |
 | 2022 | 228   | 256         |
+| 2023 | 130   | 415         |
