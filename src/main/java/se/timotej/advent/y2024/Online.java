@@ -90,8 +90,8 @@ public class Online {
     }
 
     private static Pair<Integer, Integer> getDayAndLevel() {
-        StackTraceElement[] stackTrace = new Exception().getStackTrace();
-        String className = stackTrace[2].getClassName();
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        String className = stackTrace[3].getClassName();
         Matcher matcher = Pattern.compile("(\\d+)(b?)$").matcher(className);
         if (matcher.find()) {
             return Pair.of(
