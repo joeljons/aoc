@@ -34,7 +34,7 @@ public class Advent18b {
                 for (int dir = 0; dir < 4; dir++) {
                     int newX = x + dx[dir];
                     int newY = y + dy[dir];
-                    if (newX >= 0 && newX <= 70 && newY >= 0 && newY <= 70 && g[newX][newY] != '#' && dist[newY][newX] == 0) {
+                    if (newX >= 0 && newX <= 70 && newY >= 0 && newY <= 70 && g[newY][newX] != '#' && dist[newY][newX] == 0) {
                         dist[newY][newX] = dist[y][x] + 1;
                         q.add(Pair.of(newX, newY));
                     }
