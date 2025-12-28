@@ -135,7 +135,7 @@ public class Online {
             System.out.println("Will not submit after get(0)");
             return false;
         }
-        if (!(day == 25 && level == 2) && ("0".equals(answer) || StringUtils.isEmpty(answer))) {
+        if (!(day == 12 && level == 2) && ("0".equals(answer) || StringUtils.isEmpty(answer))) {
             System.out.println("Will not submit this answer ('" + answer + "')");
             return false;
         }
@@ -207,8 +207,8 @@ public class Online {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        if (won && day == 25 && level == 1) {
-            submit(25, 2, 0);
+        if (won && day == 12 && level == 1) {
+            submit(day, 2, 0);
         }
         return won;
     }
